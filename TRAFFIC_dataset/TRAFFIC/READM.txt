@@ -1,0 +1,9 @@
+Trajectory Classification & Abnormality Detection TRAFFIC Dataset
+------------------------
+File Description
+------------------------
+The trajectory dataset is given in Matlab .mat file. It contains two variables
+
+tracks_traffic - {Nx1} cell array of N trajectories.  Each trajectory is a [2xT] array of T [x,y] tracking points, T=50 in TRAFFIC dataset.
+
+truth - [Nx2] array that specifies the truth cluster label and abnormality for each trajectory. First column: 1~11 represent for 'R','L','RD','RU','LD','LU','DL','D','U','DR','UL' 11 different classes respectively; Second column: 1/0 represents for normal/abnormal events.
